@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import CartProvider from './Context/CartProvider';
 import About from './Pages/About';
+import Home from './Pages/Home';
 
 
 const appRouter = createBrowserRouter([
@@ -14,6 +15,10 @@ const appRouter = createBrowserRouter([
   {
     path: "/About",
     element: <About/>
+  },
+  {
+    path: "/Home",
+    element: <Home/>
   }
 ])
 
