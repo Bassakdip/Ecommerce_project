@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    margin-top: 5rem;
+    padding: 20px;
+    background: #767979;
+    justify-content: center;
+  }
+  .brand_name {
+    /* text-align: center; */
+    color: white;
+    width: 50%;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+  .icons {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .icons a{
+    padding: 10px;
+    margin: 0px 20px;
+    font-size: 30px;
+  }

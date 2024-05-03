@@ -1,9 +1,9 @@
 import React from 'react'
 import AvailableProductItem from '../Components/product/AvailableProductItem'
 
-const Store = () => {
+const Store = (props) => {
   return (
-    <AvailableProductItem/>
+    <AvailableProductItem getData={props.getData}/>
   )
 }
 
